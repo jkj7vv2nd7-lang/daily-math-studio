@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>使い方マニュアル｜日々の数学演習 Daily Math Studio</title>
+<meta name="description" content="大学受験・高校受験の数学演習アプリ「日々の数学演習 Daily Math Studio」の使い方マニュアルです。">
+<style>
+  :root{ --navy:#263d54; --navy2:#314d68; --paper:#f6f2e9; --card:#fffdf7; --line:#ddd3bd; --ink:#2b2b26; --mut:#6d675a; --gold:#b07d2b; --teal:#14655a; }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; font-size:16.5px; line-height:1.85;}
+  header{background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; padding:26px 18px 22px;}
+  header .inner{max-width:760px; margin:0 auto;}
+  header h1{font-size:24px; margin:0 0 4px; letter-spacing:.02em;}
+  header p{margin:0; font-size:14px; opacity:.85;}
+  main{max-width:760px; margin:0 auto; padding:18px 14px 40px;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin:14px 0; box-shadow:0 1px 4px rgba(90,60,20,.06);}
+  h2{font-size:19px; margin:2px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--line);}
+  h3{font-size:16.5px; margin:16px 0 4px; color:var(--navy);}
+  p{margin:6px 0;}
+  ol,ul{margin:6px 0 6px 0; padding-left:1.4em;}
+  li{margin:3px 0;}
+  .btn{display:inline-block; background:var(--navy); color:#fff; text-decoration:none; border-radius:10px; padding:11px 20px; font-weight:700; margin:6px 0;}
+  .note{background:#fdf6e3; border:1px dashed var(--gold); border-radius:10px; padding:10px 14px; font-size:14.5px; margin:10px 0;}
+  .small{font-size:13.5px; color:var(--mut);}
+  b.k{color:var(--navy);}
+  .toc a{color:var(--navy); text-decoration:none;}
+  .toc li{margin:5px 0;}
+  footer{max-width:760px; margin:0 auto; padding:0 14px 34px; color:var(--mut); font-size:13.5px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <h1>📐 日々の数学演習 Daily Math Studio<br>使い方マニュアル</h1>
+    <p>大学受験・高校受験の「今日の1題」を、記述の自己採点つきで毎日解く演習アプリの使い方です。（ver 1.2.0 対応）</p>
+  </div>
+</header>
+<main>
+
+<div class="card">
+  <h2>もくじ</h2>
+  <ol class="toc">
+    <li><a href="#about">このアプリについて</a></li>
+    <li><a href="#start">はじめ方</a></li>
+    <li><a href="#flow">基本の流れ</a></li>
+    <li><a href="#problem">問題画面の使い方</a></li>
+    <li><a href="#ink">手書きスペース</a></li>
+    <li><a href="#answer">解答と自己採点</a></li>
+    <li><a href="#review">定着度と復習</a></li>
+    <li><a href="#print">記録シートの印刷</a></li>
+    <li><a href="#pack">問題パックの追加</a></li>
+    <li><a href="#data">データと更新について</a></li>
+    <li><a href="#trouble">うまくいかないとき</a></li>
+  </ol>
+  <p><a class="btn" href="https://jkj7vv2nd7-lang.github.io/daily-math-studio/">アプリを開く</a></p>
+</div>
+
+<div class="card" id="about">
+  <h2>1. このアプリについて</h2>
+  <p>日付で進む「今日の1題」を解く、数学の記述演習アプリです。コースは3つあります。</p>
+  <ul>
+    <li><b class="k">大学受験 理系</b> ― 数学IIIまでを含む理系向け</li>
+    <li><b class="k">大学受験 文系</b> ― 文系範囲の数学I・A・II・B中心</li>
+    <li><b class="k">高校受験</b> ― 中学数学の入試レベル</li>
+  </ul>
+  <p>料金は無料です。インターネットにつながっていなくても使えます（オフライン対応）。記録や書き込みは、使っている端末の中だけに保存され、外部に送信されることはありません。</p>
+  <p>現在の収録は <b>2026年12月分の93問</b>（3コース×31日）です。1月分以降は「問題パック」で月ごとに無料で追加していく予定です（「9. 問題パックの追加」参照）。</p>
+</div>
+
+<div class="card" id="start">
+  <h2>2. はじめ方</h2>
+  <ol>
+    <li>上の「アプリを開く」ボタン、または紹介記事のリンクからアプリを開きます。インストールは不要です。</li>
+    <li>よく使う場合は、ブラウザの共有メニューから「ホーム画面に追加」しておくと、アプリのように開けます。</li>
+    <li>最初にコース（大学受験 理系／文系／高校受験）を選びます。コースはあとから切り替えられ、記録はコースごとに別々に残ります。</li>
+  </ol>
+</div>
+
+<div class="card" id="flow">
+  <h2>3. 基本の流れ</h2>
+  <ol>
+    <li>コースを選ぶ</li>
+    <li>「今日の1題」を開く（前日・翌日への移動や、カレンダーから日付を選ぶこともできます）</li>
+    <li>タイマーをスタートして解く（困ったら3段階ヒント）</li>
+    <li>ノートの代わりに「手書きスペース」で画面に書き込んでも解けます</li>
+    <li>「解答を見る」で標準解答と別解・研究を確認する</li>
+    <li>「記述 自己採点チェックリスト」で自分の答案を採点する（10点満点）</li>
+    <li>定着度（◎／○／△）を記録する → 時期が来ると復習に出ます</li>
+  </ol>
+</div>
+
+<div class="card" id="problem">
+  <h2>4. 問題画面の使い方</h2>
+  <h3>日付の移動</h3>
+  <p>「前日」「翌日」ボタンで1日ずつ移動できます。「カレンダー」では月の一覧が開き、解いた日の定着マークと、復習の時期が来た日のバッジが見えます。日付を押すとその日の問題に移動します。</p>
+  <h3>タイマー</h3>
+  <ul>
+    <li><b class="k">計測（カウントアップ）</b> ― かかった時間を測ります。目標時間を超えると合図が出ます。</li>
+    <li><b class="k">本番逆算</b> ― 目標時間からのカウントダウンです。0になると合図が出ます。</li>
+    <li>合図は、音（3つの音のメロディ）と「⏰ 時間ですよ」の表示の両方で知らせます。「🔔 合図音をテストする」ボタンで、音量を事前に確かめられます。</li>
+  </ul>
+  <div class="note">音が出ないときは、端末のマナーモード（消音スイッチ）と音量を確認してください。iPhoneでは消音スイッチが入っていると音が出ません。</div>
+  <h3>集中モード</h3>
+  <p>右上の「集中」を押すと、画面が問題だけに絞られます。1題に集中したいときにどうぞ。もう一度押すと元に戻ります。</p>
+  <h3>ヒント</h3>
+  <p>ヒントは3段階あります。いきなり答えは出ず、少しずつ助けが増えていきます。ヒントを使ったかどうかは、定着度の記録に反映されます。</p>
+  <h3>黒板テーマ</h3>
+  <p>右上の「黒板」を押すと、黒板のような濃い色の画面に切り替わります。夜の演習や目を休めたいときにどうぞ。</p>
+</div>
+
+<div class="card" id="ink">
+  <h2>5. 手書きスペース</h2>
+  <p>問題の上に半透明の膜をかぶせて、指やペンでそのまま書き込めるスペースです。ノートを用意しなくても、その場で計算や答案の下書きができます。</p>
+  <ol>
+    <li>問題画面の「✍️ 手書きスペース」を押して開きます。</li>
+    <li>下の問題がうっすら透けて見えます。そのまま書き込んでください。</li>
+    <li>書く場所が足りなくなったら「↓ スペースを広げる」で下へ伸ばせます（広げても書いたものは消えません）。</li>
+    <li>「✋ 移動」に切り替えると、膜の上をスクロールできます。「✏️ 書く」に戻すと再び書けます。</li>
+    <li>ペンの色は3色（黒・青・赤）です。黒板テーマのときは白が初期色になり、チョークのように書けます。</li>
+    <li>「🧽 消しゴム」は、触れた線を1画ごとに消します。「↩ 1画もどる」は最後の1画を取り消します。「全部消す」は確認のうえで、その問題の書き込みをすべて消します。</li>
+    <li>「✓ 終わる」で閉じます。書き込みは問題ごとに自動で保存され、同じ問題を開き直すと続きから書けます。</li>
+    <li>「🖼 画像として保存」で、書き込みを画像（PNG）にして保存・共有できます。</li>
+  </ol>
+  <div class="note">手書きスペースの書き込みは、記録シートの印刷には含まれません。残したいときは「画像として保存」をお使いください。</div>
+</div>
+
+<div class="card" id="answer">
+  <h2>6. 解答と自己採点</h2>
+  <p>解き終わったら「解答を見る」を押します（開く前に確認が出ます）。</p>
+  <ul>
+    <li><b class="k">標準解答</b> ― 模範となる解き方です。</li>
+    <li><b class="k">別解・研究</b> ― 別の解き方や、問題の背景・広がりです。</li>
+    <li><b class="k">記述 自己採点チェックリスト</b> ― 定義域・同値性・場合分けなど、記述答案で減点されやすいポイントが、その問題に合わせて項目になっています。自分の答案と見比べてチェックを入れると、配点に応じて10点満点で自己採点できます。</li>
+  </ul>
+  <p>「合っていた」で終わらせず、どこで減点されるかを知ることが、このアプリの中心の練習です。</p>
+</div>
+
+<div class="card" id="review">
+  <h2>7. 定着度と復習</h2>
+  <p>解いたあとは、定着度を記録します。</p>
+  <ul>
+    <li><b class="k">◎ 自力で完答</b></li>
+    <li><b class="k">○ ヒントで完答</b> ― 7日後に復習に出ます</li>
+    <li><b class="k">△ 要復習</b> ― 翌日・3日後・7日後の順に復習に出ます</li>
+  </ul>
+  <p>復習の時期が来た問題は、カレンダーと日付の画面にバッジで知らせます。忘れかけた頃にもう一度出会うことで、定着をねらいます。連続して取り組んだ日数は、画面上部の「🔥 ○日」に表示されます。</p>
+</div>
+
+<div class="card" id="print">
+  <h2>8. 記録シートの印刷</h2>
+  <ol>
+    <li>問題画面の「記録シートを印刷する」を押します。</li>
+    <li>問題・標準解答・チェックリスト・ふりかえりメモ欄が、A4判1枚に収まる形で印刷されます。</li>
+  </ol>
+  <p>紙に残したい人、教室で配りたい先生にも使えます。タイトル横の線は、印刷の縮尺を確認するための5cmの目安です。</p>
+</div>
+
+<div class="card" id="pack">
+  <h2>9. 問題パックの追加</h2>
+  <ol>
+    <li>配布された問題パック（JSONファイル）を端末に保存します。</li>
+    <li>アプリの「問題パックを取り込む」から、そのファイルを選びます。</li>
+    <li>取り込んだ月の問題が、そのコースで解けるようになります。</li>
+  </ol>
+  <p>取り込んだ問題と記録は、アプリを更新しても消えません。パックの問題がある日は、収録分よりパックが優先されます。</p>
+</div>
+
+<div class="card" id="data">
+  <h2>10. データと更新について</h2>
+  <ul>
+    <li>記録・自己採点・手書きの書き込みは、すべて使っている端末のブラウザの中に保存されます。サーバーには送られません。</li>
+    <li>ブラウザのデータを削除したり、端末を変えたりすると、記録は引き継がれません。ご注意ください。</li>
+    <li>アプリが新しくなったときは、画面下の「最新の版に更新する」ボタンで最新版に切り替えられます。この操作で記録が消えることはありません。</li>
+  </ul>
+</div>
+
+<div class="card" id="trouble">
+  <h2>11. うまくいかないとき</h2>
+  <h3>合図音が鳴らない</h3>
+  <p>端末の消音スイッチと音量を確認し、「🔔 合図音をテストする」で鳴るか試してください。</p>
+  <h3>画面が古いまま変わらない</h3>
+  <p>画面下の「最新の版に更新する」ボタンを押してください。それでも変わらないときは、ページを再読み込みしてください。</p>
+  <h3>オフラインで開けない</h3>
+  <p>はじめて開くときはインターネット接続が必要です。一度開いたあとは、オフラインでも使えます。</p>
+  <h3>印刷が2枚になってしまう</h3>
+  <p>プリンターの設定で「用紙に合わせる」が有効だと、まれにずれることがあります。その場合は倍率を100%（実際のサイズ）にしてお試しください。</p>
+  <div class="note">不具合が出るかもしれません。実際にご使用の際に不具合がありましたら、紹介記事（note）のコメント欄からお知らせください。</div>
+</div>
+
+<p style="text-align:center; margin-top:22px;"><a class="btn" href="https://jkj7vv2nd7-lang.github.io/daily-math-studio/">アプリを開く</a></p>
+
+</main>
+<footer>
+  <p>日々の数学演習 Daily Math Studio ― 使い方マニュアル（ver 1.2.0 対応）</p>
+</footer>
+</body>
+</html>
