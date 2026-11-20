@@ -1,5 +1,5 @@
-// Daily Math Studio service worker (ver 1.1.1)
-const CACHE = "dms-v1.1.1";
+// Daily Math Studio service worker (ver 1.2.0)
+const CACHE = "dms-v1.2.0";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
